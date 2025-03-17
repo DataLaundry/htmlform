@@ -62,7 +62,7 @@
             var email = document.getElementById('email').value;
             var dob = document.getElementById('dob').value;
 
-            fetch('YOUR_WEB_APP_URL', {
+            fetch('https://script.google.com/macros/s/AKfycbwKWPWPflEBVk5vis3kgCXHbPvDjmJOOQNNAcVL5tRuLOOZyN8MPB0yIelnFI4s95O5/exec', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name: name, email: email, dob: dob })
